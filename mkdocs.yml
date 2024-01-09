@@ -1,0 +1,58 @@
+site_name: CurveSuite Documentation
+site_url:
+site_description: Documentation for CurveSuite, a collection of geometry node-driven procedural modeling tools
+site_author: Attifyon
+nav:
+    - Introduction:
+        - Installation & Overview: index.md
+    - Curve Generation:
+        - Bridge Curves with Subcurves: curve_generation/bridge_curves_with_curves.md
+        - Curves to Continuous Subcurves: curve_generation/curve_to_cont_subcurves.md
+        - Curves to Subcurves: curve_generation/curve_to_subcurves.md
+        - Curves to Fur Curves: curve_generation/curve_to_furcurves.md
+        - Cylinders to Curves: curve_generation/cylinders_to_curves.md
+        - Mirror Curves: curve_generation/mirror_curves.md
+        - Split Curve to Curves: curve_generation/split_curve_to_curves.md
+    - Curve Manipulation:
+        - Align Curve to Surface: curve_manipulation/align_curve_to_surface.md
+        - Displace Curves: curve_manipulation/displace_curves.md
+        - Random Trim Curves: curve_manipulation/random_trim_curves.md
+        - Resample Curve: curve_manipulation/resample_curves.md
+        - Transfer Radius and Tilt: curve_manipulation/transfer_radius_and_tilt.md
+    - Mesh Generation:
+        - Bridge Curves with Mesh: mesh_generation/bridge_curves_with_mesh.md
+        - Curve to Mesh: mesh_generation/curve_to_mesh.md
+        - Deform to UVs: mesh_generation/deform_to_uvs.md
+        ##- Deformed Array Along Curves: mesh_generation/deformed_array_along_curves.md
+
+markdown_extensions:
+    - meta
+    - admonition
+    - footnotes
+    - attr_list
+    - toc
+    - sane_lists
+    - pymdownx.details
+    - pymdownx.betterem
+    - pymdownx.keys
+theme: 
+    name: readthedocs
+    custom_dir: overrides
+    collapse_navigation: true
+    include_sidebar: true
+    prev_next_buttons_location: none
+    sticky_navigation: false
+    logo: img/logo3.png
+extra_css:
+    - css/custom.css
+plugins:
+    - search
+    - glightbox
+    - mkdocs-video:
+        is_video: True
+        video_loop: True
+        video_autoplay: True
+        video_controls: True
+        # css-style:
+        #     width: "100%"
+            # style: "border:none"
