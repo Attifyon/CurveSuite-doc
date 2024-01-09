@@ -45,6 +45,7 @@ theme:
     logo: img/logo3.png
 extra_css:
     - css/custom.css
+    - md-footer__inner { display: none !important }
 plugins:
     - search
     - glightbox
