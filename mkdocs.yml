@@ -1,5 +1,5 @@
 site_name: CurveSuite
-site_url: curvesuite.readthedocs.io
+site_url: http://curvesuite.readthedocs.io
 site_description: Documentation for CurveSuite, a collection of geometry node-driven procedural modeling tools
 site_author: Attifyon
 nav:
