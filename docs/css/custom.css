@@ -1,4 +1,8 @@
 
+.md-footer__inner { 
+    display: none !important;
+}
+
 .wy-nav-content {
     max-width: none !important;
 }
