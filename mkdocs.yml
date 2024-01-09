@@ -1,5 +1,5 @@
 site_name: CurveSuite
-site_url:
+site_url: curvesuite.readthedocs.io
 site_description: Documentation for CurveSuite, a collection of geometry node-driven procedural modeling tools
 site_author: Attifyon
 nav:
@@ -45,7 +45,6 @@ theme:
     logo: img/logo3.png
 extra_css:
     - css/custom.css
-    - md-footer__inner { display: none !important }
 plugins:
     - search
     - glightbox
