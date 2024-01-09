@@ -1,3 +1,2 @@
-# Faceit Documentation
+# CurveSuite Documentation
 
-https://faceit-doc.readthedocs.io/en/latest/
