@@ -23,7 +23,7 @@ nav:
         - Bridge Curves with Mesh: mesh_generation/bridge_curves_with_mesh.md
         - Curve to Mesh: mesh_generation/curve_to_mesh.md
         - Deform to UVs: mesh_generation/deform_to_uvs.md
-        ##- Deformed Array Along Curves: mesh_generation/deformed_array_along_curves.md
+        - Deformed Array Along Curves: mesh_generation/deformed_array_along_curves.md
 
 markdown_extensions:
     - meta
