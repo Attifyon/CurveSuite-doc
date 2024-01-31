@@ -5,6 +5,7 @@ site_author: Attifyon
 nav:
     - Introduction:
         - Installation & Overview: index.md
+        - Workflow Tutorials: workflows.md
     - Curve Generation:
         - Bridge Curves with Subcurves: curve_generation/bridge_curves_with_curves.md
         - Curves to Continuous Subcurves: curve_generation/curve_to_cont_subcurves.md
@@ -24,6 +25,8 @@ nav:
         - Curve to Mesh: mesh_generation/curve_to_mesh.md
         - Deform to UVs: mesh_generation/deform_to_uvs.md
         - Deformed Array Along Curves: mesh_generation/deformed_array_along_curves.md
+    - Misc:
+        - Scramble UVs: misc/scramble_uvs.md
 
 markdown_extensions:
     - meta
