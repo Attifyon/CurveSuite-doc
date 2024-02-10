@@ -15,6 +15,8 @@ This modifier stretches an UV grid to follow the shape of curve objects, helping
 * **Count:** The amount of edge loops generated to bridge the curves with. When set to zero, uses the evaluated resolution of the longest curve within the object to determine the count. If set to zero, the modifier will use the resolution of the curve with most points within the curve object as the resolution of the grid.
 * **Material:** The material assigned to the generated surface
 * **UVMap Name:** The name the default UVMap of the surface will be saved under. By default, the X axis of the UV map is equal to the spline factor of the main curves the UV grid is stretched onto, while the Y axis is based on the index order of the curves the grid is stretched across, with the starting curve having a Y coordinate of 0 and the last curve having a Y coordinate of 1
+* **Closed Loop?:** If enabled, bridges the start and end of the generated grid with another row of faces. Might be useful if this modifier is used alongside [Bridge Curves with Mesh](../curve_generation/bridge_curves_with_curves.md), or with cyclic curves
+* **Flip Faces?:** Flips the normals of the generated grid. 
 
 ---
 

@@ -5,7 +5,7 @@ site_author: Attifyon
 nav:
     - Introduction:
         - Installation & Overview: index.md
-        - Workflow Tutorials: workflows.md
+        - Workflow Tutorials & Tips: workflows.md
     - Curve Generation:
         - Bridge Curves with Subcurves: curve_generation/bridge_curves_with_curves.md
         - Curves to Continuous Subcurves: curve_generation/curve_to_cont_subcurves.md
@@ -20,6 +20,7 @@ nav:
         - Random Trim Curves: curve_manipulation/random_trim_curves.md
         - Resample Curve: curve_manipulation/resample_curves.md
         - Transfer Radius and Tilt: curve_manipulation/transfer_radius_and_tilt.md
+        - Smoothen Curves: curve_manipulation/smoothen_curves.md
     - Mesh Generation:
         - Bridge Curves with Mesh: mesh_generation/bridge_curves_with_mesh.md
         - Curve to Mesh: mesh_generation/curve_to_mesh.md
@@ -27,6 +28,7 @@ nav:
         - Deformed Array Along Curves: mesh_generation/deformed_array_along_curves.md
     - Misc:
         - Scramble UVs: misc/scramble_uvs.md
+        - Join Collection as Object: misc/join_collection_as_object.md
 
 markdown_extensions:
     - meta
