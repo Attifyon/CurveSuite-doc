@@ -1,4 +1,4 @@
-# Bridge Curves with Subcurves
+# ![icon](../img/icons/bridge_curves_with_curves.png) Bridge Curves with Subcurves
 
 [TOC]
 
