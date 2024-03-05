@@ -7,22 +7,22 @@
     /* overflow-y: scroll; */
 }
 
-
+/*
 .rst-versions { 
     display: none !important;
-}
-
-
-
-.rst-current-version{ 
-    display: none !important;
-}
+}*/
 
 
 /*
+.rst-current-version{ 
+    display: none !important;
+}
+*/
+
+
 .wy-nav-content {
     max-width: none !important;
-}*/
+}
 
 
 .wy-side-nav-search {
@@ -36,6 +36,8 @@
 
 .rst-versions .rst-current-version {
     /* background: rgb(42, 36, 49); */
+    padding: none;
+    height: 2vw;
     max-height: 2vw;
     text-align: center;
     background: rgb(61, 61, 61);
