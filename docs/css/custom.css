@@ -37,8 +37,7 @@
 .rst-versions .rst-current-version {
     /* background: rgb(42, 36, 49); */
     padding: 1vw;
-    height: 9vw;
-    max-height: 9vw;
+    height: 1vw;
     text-align: center;
     background: rgb(61, 61, 61);
     border-top:solid 5px rgb(71, 114, 179);
