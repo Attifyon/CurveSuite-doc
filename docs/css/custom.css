@@ -2,6 +2,11 @@
     display: none !important;
 }
 
+.wy-nav-side {
+    width: auto;
+    /* overflow-y: scroll; */
+}
+
 .rst-versions { 
     display: none !important;
 }
@@ -39,6 +44,7 @@
 .wy-nav-content-wrap, .wy-body-for-nav {
   background: rgb(170, 170, 170);
 }
+
 .wy-side-nav-search, .wy-side-nav-search > a, .wy-side-nav-search .wy-dropdown > a,
 .rst-versions, .rst-versions .rst-other-versions dd a,
 .rst-versions .rst-current-version .fa,
@@ -85,9 +91,4 @@ img.center-image {
 }
 .rst-content .danger {
   background: rgb(196, 170, 170);
-}
-
-.wy-side-scroll {
-  width: 307px;
-  overflow-y: auto;
 }
