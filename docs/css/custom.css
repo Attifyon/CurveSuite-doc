@@ -87,4 +87,7 @@ img.center-image {
   background: rgb(196, 170, 170);
 }
 
-
+.wy-side-scroll {
+  width: 307px;
+  overflow-y: auto;
+}
