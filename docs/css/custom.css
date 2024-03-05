@@ -7,38 +7,47 @@
     /* overflow-y: scroll; */
 }
 
+/*
 .rst-versions { 
     display: none !important;
-}
+}*/
 
+
+/*
 .rst-current-version{ 
     display: none !important;
 }
+*/
 
+/*
 .wy-nav-content {
     max-width: none !important;
-}
+}*/
+
 
 .wy-side-nav-search {
-    background: rgb(98, 120, 120);
+    background: rgb(61, 61, 61);
 }
 
-.wy-nav-top,.wy-nav-side,.rst-versions .rst-current-version {
+.wy-nav-top,.wy-nav-side {
     /* background: rgb(42, 36, 49); */
-    background: rgb(90, 90, 90);
+    background: rgb(40, 40, 40);
 }
 
-.rst-versions{
-    border-top:solid 10px rgb(42, 36, 49);
+.rst-versions .rst-current-version {
+    /* background: rgb(42, 36, 49); */
+    background: rgb(61, 61, 61);
+    border-top:solid 5px rgb(71, 114, 179);
 }
+
 
 .rst-content {
-    //text-indent: 50px;
+    //text-indent: 40px;
 }
 
 .wy-dropdown-menu, .wy-dropdown.wy-dropdown-bubble .wy-dropdown-menu,
 .wy-menu-vertical li.on a, .wy-menu-vertical li.on a:hover, .wy-menu-vertical li.current > a, .wy-nav-content {
-  background: rgb(240, 240, 240);
+  background: rgb(220, 220, 220);
 }
 
 .wy-nav-content-wrap, .wy-body-for-nav {
