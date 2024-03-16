@@ -1,4 +1,4 @@
-# Split Curve to Curves
+# ![icon](../img/icons/split_curve_to_curves.png) Split Curve to Curves
 
 [TOC]
 
@@ -6,6 +6,8 @@
 
 ## Overview
 This modifier cuts existing curves into multiple curves at certain intervals, with parameters to control randomness of the intervals as well as giving you the option to extend the generated curves to overlap at their roots or curves
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/It1vzkZdvFc?si=zvdoyIv_pinaetE0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 

@@ -1,4 +1,4 @@
-# Scramble UVs
+# ![icon](../img/icons/scramble_uvs.png) Scramble UVs
 
 [TOC]
 
@@ -6,6 +6,8 @@
 
 ## Overview
 This modifier takes the UV map of an existing object's islands, rescaling and translating them across the UV grid randomly. This allows meshes with simple UV maps, like grids, to utilize texture maps with multiple variations when used to create features like feathers and scales
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iIEyYasQYSs?si=NNQxbBgqOgoOzgC9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
@@ -28,3 +30,4 @@ This modifier takes the UV map of an existing object's islands, rescaling and tr
 ---
 
 ## Tips & Use Cases
+* The main use case for this modifier is to assign different texture variations for features like hair cards, where one image can have multiple variations

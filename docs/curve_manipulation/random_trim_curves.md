@@ -1,4 +1,4 @@
-# Random Trim Curves
+# ![icon](../img/icons/random_trim_curves.png) Random Trim Curves
 
 [TOC]
 
@@ -7,17 +7,18 @@
 ## Overview
 This modifier shortens curves by randomly trimming their roots or tips based on how the parameters are set
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DxPT-9JNdSw?si=6IuUgyUqYqd66SZP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
 ## Parameters
 ![Parameters](params/random_trim_curves.PNG)
 
-* **Root Min:** The minimum trimming applied to the roots of curves
-* **Root Max:** The maximum trimming applied to the roots of curves
+* **Root Min:** The minimum point's position along the curve that'll become the new root after trimming
+* **Root Max:** The maximum point's position along the curve that'll become the new root after trimming
 * **Root Trim Seed:** Determines the random number generated for the root trimming
-* **Tip Min:** The minimum trimming applied to the tips of curves
-* **Tip Max:** The maximum trimming applied to the tips of curves
+* **Tip Min:** The minimum point's position along the curve that'll become the new tip after trimming
+* **Tip Max:** The maximum point's position along the curve that'll become the new tip after trimming
 * **Tip Trim Seed:** Determines the random number generated for the tip trimming
 
 !!!warn "Trimming by Spline Factor"

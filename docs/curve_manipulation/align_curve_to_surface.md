@@ -1,4 +1,4 @@
-# Align Curve to Surface
+# ![icon](../img/icons/align_curve_to_surface.png) Align Curve to Surface
 
 [TOC]
 
@@ -7,6 +7,8 @@
 ## Overview
 This modifier shrinkwraps curves to a target object, optionally setting their tilt to align their normals with the surface's normals
 and offsetting them by a fixed value along the curves' length
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EmVbIYzz-cM?si=yu6WKOBxW0LzkyX_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 

@@ -1,4 +1,4 @@
-# Resample Curve
+# ![icon](../img/icons/resample_curves.png) Resample Curve
 
 [TOC]
 
@@ -6,6 +6,8 @@
 
 ## Overview
 This modifier allows you to have manual control over how many points there are in a curve by either setting a fixed number or by setting a distance value between each point. It also has additional controls for culling points based on how little they contribute to the shape of a curve.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XsYVVG57BZ4?si=5obPYUJNX1BjyHCL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 

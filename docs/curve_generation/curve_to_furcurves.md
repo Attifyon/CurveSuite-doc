@@ -1,4 +1,4 @@
-# Curves to Fur Curves
+# ![icon](../img/icons/curve_to_furcurve.png) Curves to Fur Curves
 
 [TOC]
 
@@ -7,12 +7,14 @@
 ## Overview
 This modifier generates subcurves that are emitted from a target mesh. The generated fur curves follow the overall direction of the existing control curves, with their angle based on the control curve tilt. Using the modifier parameters, control curve radius can be used to control the fur curve length or radii.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AvlQ1HURL0Y?si=RcUylL9itxlQhshx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ---
 
 ## Parameters
 ![Parameters](params/curve_to_furcurves.PNG)
 
-* **Target Geometry:** Mesh object to emit the fur curves from. These curves will inherit any attribute the mesh has at the exact root of the curves, which will then be inherited by the mesh if these curves are used for [Curve to Mesh](../mesh_generation/curve_to_mesh.md)
+* **Target Geometry:** Mesh object to emit the fur curves from. These curves will inherit any attribute the mesh has at the exact root of the curves, which will then be inherited by the mesh if these curves are used for [**Curve to Mesh**](../mesh_generation/curve_to_mesh.md)
 * **Curve Proximity Cutoff:** Determines the maximum distance the fur curves will be generated from the control curves. Increasing it will let you control larger patches for fur curves with fewer control curves, while a smaller value will give you more precision and control over more complicated surfaces
 * **Distance Min:** Does nothing while set to 0 m. Higher values will delete fur curves that are within a certain distance to other fur curves, decreasing the total curve count and evening out the curve distribution.
 !!!warning "Relativity of Min Distance"
@@ -41,5 +43,5 @@ This modifier generates subcurves that are emitted from a target mesh. The gener
 
 ## Tips & Use Cases
 
-* By default, the radii of the fur curves linearly tapers to zero. By using [Transfer Radius and Tilt](../curve_manipulation/transfer_radius_and_tilt.md), you can give mesh generated with this modifier more complicated or interesting shapes
-* The fur curves will inherit all UV maps, vertex colors and weight groups. However, these attributes will be converted to Blender's own proprietary attribute system, meaning they will need to be converted one-by-one if you wish to export meshes generated from them. More often than not, it may be a better idea to use the **Data Transfer** modifier
+* By default, the radii of the fur curves linearly tapers to zero. By using [**Transfer Radius and Tilt**](../curve_manipulation/transfer_radius_and_tilt.md), you can give mesh generated with this modifier more complicated or interesting shapes
+* The fur curves will inherit all UV maps, vertex colors and weight groups of the singular surface point they're emitted from. However, these attributes will be converted to Blender's own proprietary attribute system, meaning they will need to be converted one-by-one if you wish to export meshes generated from them. More often than not, it may be a better idea to use the [**Data Transfer**](https://docs.blender.org/manual/en/latest/modeling/modifiers/modify/data_transfer.html) modifier to recover these data rather than to convert them one by one.

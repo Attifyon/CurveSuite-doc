@@ -1,4 +1,4 @@
-# Displace Curves
+# ![icon](../img/icons/displace_curves.png) Displace Curves
 
 [TOC]
 
@@ -6,6 +6,8 @@
 
 ## Overview
 This modifier offsets curves based on their parameters using a noise texture. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5Ojk_yXwmrQ?si=ruPVZezyH2mEUREB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
@@ -21,10 +23,10 @@ This modifier offsets curves based on their parameters using a noise texture.
 !!!tip "Noise Texture Node"
     The Noise Texture node exists both in geometry nodes and shader nodes. If you find it hard to visualize how each parameter affects the final result, it may be helpful to toy with the node within shader nodes to get a better idea of how it works.
 
-* **Relative Noise?:** When this option is enabled, rather than using world-space coordinates, this modifier will use the spline index as the X coordinate and spline factor as the Y coordinate of the noise texture's coordinate input. 
+* **Relative Noise?:** When this option is enabled, rather than using world-space coordinates, this modifier will use the spline index as the X and Z coordinates and spline factor as the Y coordinate of the noise texture's coordinate input. 
 
 !!!warn "Scale Relativity"
-    This parameter also affects the **Texture Scale** parameter's impact on the effect, meaning that enabling this and setting the first input of the texture scale to zero will make every curve have the exact same noise, and adjusting the second input will adjust how much variance the noise gets along the curves' lengths. While Relative Noise enabled, the third input of Texture Scale affects nothing.
+    This parameter also affects the **Texture Scale** parameter's impact on the effect, meaning that enabling this and setting the first input of the texture scale to zero will make every curve have the exact same noise, and adjusting the second input will adjust how much variance the noise gets along the curves' lengths. While Relative Noise enabled, the third input of Texture Scale will act as a sort of offset on the first input
 
 * **Normal Surface:** By default, the offsetting applied to the curves is based on their normals and tangents. When a mesh object with a surface is specified in this parameter, the surface normal of the nearest surface of this object is used instead of the curve's own normal in the calculations.
 
@@ -45,3 +47,4 @@ This modifier offsets curves based on their parameters using a noise texture.
 ## Tips & Use Cases
 
 * This modifier is very useful when trying to make organic-looking hair and fur. 
+* If paired with cyclic curves and [Bridge Curves with Subcurves](../curve_generation/bridge_curves_with_curves.md), enabling **Relative Noise**, setting the first texture scale parameter to an integer and third texture scale parameter to zero will effectively loop the offsetting applied to the subcurves along the cyclic curves, which can make it useful when modeling skirts or long dresses for a figure model

@@ -1,4 +1,4 @@
-# Smoothen Curves
+# ![icon](../img/icons/smooth_curves.png) Smooth Curves
 
 [TOC]
 
@@ -7,6 +7,7 @@
 ## Overview
 This modifier smooths out midpoints of curves based on their tangent deviation while not affecting their roots and tips
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cCiC-Ae4Opk?si=ICy2bpzyBHDczDss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 

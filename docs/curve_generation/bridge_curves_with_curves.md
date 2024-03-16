@@ -8,6 +8,8 @@
 This modifier generates a sequence of new subcurves along the existing curves, following the normal direction of the existing
 curves and running perpendicular to them.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MJyC3pW1bi8?si=g2vJXGpcn0oXTh3S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ---
 
 ## Parameters
@@ -33,3 +35,5 @@ with the most control points to determine curve count instead
 ## Tips & Use Cases
 
 * The order in which curves are bridged is dependent on the curve indices. Typically, the 'oldest' curve in a curve object has the lowest index, with the most recently generated one having the highest index. Deleting curves will never break the ordering, but adding in a new curve will always add it to the end of the order. If you wish to add in a new curve to the middle of the bridge order, you may select all curves after the curve you wish to add in a new curve after, **Separate** (default: P in Edit mode) them to a new curve object, add in your new curve, and then **Join** (default: ctrl+J in Object mode) the two curve objects back together.
+
+* This modifier, when paired with [**Bridge Curves with Mesh**](../mesh_generation/bridge_curves_with_mesh.md), can be used to create very easily editable and smooth surfaces

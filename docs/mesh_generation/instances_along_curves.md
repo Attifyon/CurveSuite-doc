@@ -1,4 +1,4 @@
-# Instances Along Curves
+# ![icon](../img/icons/instances_along_curves.png) Instances Along Curves
 
 [TOC]
 

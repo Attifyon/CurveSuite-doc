@@ -1,4 +1,4 @@
-# Mirror Curves
+# ![icon](../img/icons/mirror_curves.png) Mirror Curves
 
 [TOC]
 
@@ -17,5 +17,5 @@ This modifier is the most straightforward of all modifiers, creating a duplicate
 ---
 
 ## Tips & Use Cases
-* While simple, this modifier is very useful overall, as Blender's built-in **Mirror** modifier can only mirror mesh objects. 
+* While simple, this modifier is very useful overall, as Blender's built-in [**Mirror**](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/mirror.html) modifier can only mirror mesh objects. 
 * The order in which modifiers are evaluated has a significant impact on the end result. Having this modifier at the end of your modifier stack will result in absolute symmetry, but having it before [Random Trim Curves](../curve_manipulation/random_trim_curves.md), [Split Curve to Curves](split_Curve_to_curves.md) or the built-in hair deformation nodes can result in shapes that are symmetrical overall, but still retain small-scale differences for a more natural look

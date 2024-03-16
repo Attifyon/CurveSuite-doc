@@ -1,11 +1,13 @@
-# Join Collection as Object
+# ![icon](../img/icons/join_collection.png) Join Collection as Object
 
 [TOC]
 
 ---
 
 ## Overview
-This modifier combines multiple objects from the same collection into one object, allowing other modifiers that normally only accept one object input to rely on the geometry data of multiple objects, or to daisy-chain mesh-specific modifiers that normally aren't available for curve objects
+This modifier combines multiple objects from the same collection into one object, allowing other modifiers that normally only accept one object input to rely on the geometry data of multiple objects, or to daisy-chain mesh-specific modifiers that normally aren't available for curve objects such as [**Data Transfer**](https://docs.blender.org/manual/en/latest/modeling/modifiers/modify/data_transfer.html)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XiPDXwgTTCE?si=ClYt9R4SAp7SbbZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 

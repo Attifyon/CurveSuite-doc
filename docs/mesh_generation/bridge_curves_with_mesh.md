@@ -1,4 +1,4 @@
-# Bridge Curves with Mesh
+# ![icon](../img/icons/bridge_curves_with_mesh.png) Bridge Curves with Mesh
 
 [TOC]
 
@@ -6,6 +6,8 @@
 
 ## Overview
 This modifier stretches an UV grid to follow the shape of curve objects, helping with the generation of surfaces that have mathematical shapes
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LpXQQF5sdac?si=PRD82c8_OE7f2qxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 

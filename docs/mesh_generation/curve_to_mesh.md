@@ -1,4 +1,4 @@
-# Curve to Mesh
+# ![icon](../img/icons/curve_to_mesh.png) Curve to Mesh
 
 [TOC]
 
@@ -6,6 +6,8 @@
 
 ## Overview
 This modifier converts all the curves within an object into surfaces using another object's geometry to determine the bevel shape.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B9tE_JFlrpo?si=dD2FQZtF-bKHbNt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 

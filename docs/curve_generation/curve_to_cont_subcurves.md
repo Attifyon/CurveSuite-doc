@@ -1,4 +1,4 @@
-# Curves to Continuous Subcurves
+# ![icon](../img/icons/curve_to_cont_subcurve.png) Curves to Continuous Subcurves
 
 [TOC]
 
@@ -7,8 +7,9 @@
 ## Overview
 This modifier generates subcurves that follow the same overall direction of existing curves, with their distribution and spacing based on an emittor surface.
 
-This modifier works in a similar way to [Curves to Subcurves](curve_to_subcurves.md), but the end result prioritizes the continuity of each individual curve as opposed to maintaining the overall volume
+This modifier works in a similar way to [**Curves to Subcurves**](curve_to_subcurves.md), but the end result prioritizes the continuity of each individual curve as opposed to maintaining the overall volume
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eIT8B9RSCfc?si=cz8zGhQhDt2sLL28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
@@ -33,4 +34,4 @@ This modifier works in a similar way to [Curves to Subcurves](curve_to_subcurves
 
 ## Tips & Use Cases
 
-* Using this modifier with *Verts to Curves?* enabled and pairing it with [Bridge Curves with Mesh](../mesh_generation/bridge_curves_with_mesh.md) can provide an alternate to [Curve to Mesh](../mesh_generation/curve_to_mesh.md) that has a smoother surface with more coplanar faces.
+* Using this modifier with **Verts to Curves?** enabled and pairing it with [**Bridge Curves with Mesh**](../mesh_generation/bridge_curves_with_mesh.md) can provide an alternate to [**Curve to Mesh**](../mesh_generation/curve_to_mesh.md) that has a smoother surface with more coplanar faces as long as the tilt parameter of the main curve does not have a significant variance

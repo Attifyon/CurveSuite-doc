@@ -37,5 +37,8 @@ This page is dedicated to keeping an archive of workflow example videos
 ### Back/Crown Hair
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1vOzJW0Md64?si=yH95O2lD4_CjUNNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+### Fur Patches
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lRuqLz9wgmg?si=rkYcyUlWlN-aj3Ff" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ---
 

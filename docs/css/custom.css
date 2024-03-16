@@ -7,6 +7,14 @@
     /* overflow-y: scroll; */
 }
 
+.vDivider {
+    width: 80%;
+    height: 1px;
+    margin: 10px auto;
+    background: #434343;
+    /*border-bottom: 1px solid black; */
+}
+
 /*
 .rst-versions { 
     display: none !important;
@@ -36,7 +44,7 @@
 
 .rst-versions .rst-current-version {
     /* background: rgb(42, 36, 49); */
-    padding: 3vw;
+    padding: 2vw;
     height: 3vw;
     background: rgb(61, 61, 61);
     border-top:solid 5px rgb(71, 114, 179);

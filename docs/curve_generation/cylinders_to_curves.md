@@ -1,4 +1,4 @@
-# Cylinders to Curves
+# ![icon](../img/icons/cylinders_to_curves.png) Cylinders to Curves
 
 [TOC]
 
@@ -6,6 +6,8 @@
 
 ## Overview
 This modifier converts cylinder primitives within a mesh object to a set of curves following the overall shape of the cylinders.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FA8h_6MuyZE?si=tt4x3UEhlEzJivlx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
@@ -41,8 +43,8 @@ This modifier converts cylinder primitives within a mesh object to a set of curv
 
 * Due to how Blender tends to handle generative geometry node modifiers, it can be difficult to do live edits in a setup with multiple modifiers. Having a *Linked Duplicate* of your cylinder object with no modifiers and viewport visibility set to wireframe, and making edits on the linked duplicate instead can help you get instant feedback on your edits while simultaneously retaining ease of editing. Enabling *Retopology* shading from the Mesh Edit Mode Overlays panel can further help with visualizing.
 
-* If used to make features like hair alongside [Curve to Mesh](../mesh_generation/curve_to_mesh.md) and curve deforming modifiers like Blender's built-in hair modifiers, it can be tricky to make minor, local adjustments without applying the modifier. In such cases, you can use a *Lattice*, *Mesh Deform* or *Surface Deform* modifier at the end of your modifier stack to make minor adjustments without having to apply the modifiers and working on the final result, retaining the conveniences of procedural workflows.
+* If used to make features like hair alongside [**Curve to Mesh**](../mesh_generation/curve_to_mesh.md) and curve deforming modifiers like Blender's built-in hair modifiers, it can be tricky to make minor, local adjustments without applying the modifier. In such cases, you can use a [**Lattice**](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/lattice.html), [**Mesh Deform**](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/mesh_deform.html) or [**Surface Deform**](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/surface_deform.html) modifier at the end of your modifier stack to make minor adjustments without having to apply the modifiers and working on the final result, retaining the conveniences of procedural workflows.
 
 * If you're unsure about making adjustments in Edit mode and Sculpt mode, you can always make adjustments in shape keys so that you can undo edits or easily workshop different variations.
 
-* This modifier relies on two specific properties of cylinder primitives: flat faces have dedicated corners in the UV grid and the faces connecting them have straight quad topology. Any operation that preserves these properties can be freely performed, including adding edge loops in any direction as well as inserting, extruding or even deleting the flat faces. Edge sliding can also be performed, but you will need to disable *Correct UVs* from the tool settings panel in order to avoid edge cases breaking the modifier. 
+* This modifier relies on two specific properties of cylinder primitives: the top and bottom flat faces have dedicated corners in the UV grid and the faces connecting them have straight quad topology. Any operation that preserves these properties can be freely performed, including adding edge loops in any direction as well as inserting, extruding or even deleting the flat faces. Edge sliding can also be performed, but you will need to disable **Correct UVs** from the tool settings panel in order to avoid edge cases breaking the modifier. 

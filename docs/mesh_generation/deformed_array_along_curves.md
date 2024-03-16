@@ -1,4 +1,4 @@
-# Deformed Array Along Curves
+# ![icon](../img/icons/deformed_array_along_curves.png) Deformed Array Along Curves
 
 [TOC]
 
@@ -7,6 +7,8 @@
 ## Overview
 
 This modifier serves as an alternate to Blender's built-in Array+Curve Deform modifier combination, providing a less obtuse setup process
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MZTloVeeI2E?si=IQDIQlZXuUXmX3XH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
@@ -17,7 +19,7 @@ This modifier serves as an alternate to Blender's built-in Array+Curve Deform mo
 * **Apply Transforms?:** While this parameter is enabled, the object scale and rotation of the target object will be applied before instancing it along the curves. If disabled, the instances will use a version of the object where its scale is set to 1 and its rotation is reset. 
 * **Use Center as Origin?:** While this parameter is disabled, instances are placed along the curve such that the object's origin will perfectly line up with the curve, assuming the **Translation** parameter is left untouched. This can cause the instances to be offset away from the curve, or offset along its length if the actual mesh of the target object is far away from the object's origin. Enabling this parameter calculates the geometric center of the target object and uses it as the reference point rather than the object's origin, negating the offsetting.
 
-!tip "Offsetting isn't necessarily bad!"
+!!!tip "Offsetting isn't necessarily bad!"
     An intelligent but offset placement of the target object's origin can be useful when implementing certain effects. For example, keeping the object origin away from the mesh and adjusting the tilt of your curve can let you create spiral or helical shapes. Another example of potential benefit is that since all transformations are more severe the further they're applied from their reference point, offsetting the object origin can let you scale your instances in ways that are more practical for features like animal tails.
 
 * **Bounding Box Group:** If a vertex group from the **Object** is specified here, vertices that don't belong to this group will be deleted when calculating the bounding box for instancing. These vertices will still exist in the final geometry, but specifying a group here allows the instanced geometry to overlap, which can be useful in certain scenarios

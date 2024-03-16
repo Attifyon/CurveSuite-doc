@@ -20,7 +20,7 @@ nav:
         - Random Trim Curves: curve_manipulation/random_trim_curves.md
         - Resample Curve: curve_manipulation/resample_curves.md
         - Transfer Radius and Tilt: curve_manipulation/transfer_radius_and_tilt.md
-        - Smoothen Curves: curve_manipulation/smoothen_curves.md
+        - Smooth Curves: curve_manipulation/smoothen_curves.md
     - Mesh Generation:
         - Bridge Curves with Mesh: mesh_generation/bridge_curves_with_mesh.md
         - Curve to Mesh: mesh_generation/curve_to_mesh.md

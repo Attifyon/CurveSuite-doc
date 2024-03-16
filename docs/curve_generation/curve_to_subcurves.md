@@ -1,4 +1,4 @@
-# Curves to Subcurves
+# ![icon](../img/icons/curve_to_subcurve.png) Curves to Subcurves
 
 [TOC]
 
@@ -7,7 +7,9 @@
 ## Overview
 This modifier generates subcurves that flow parallel to existing curves, with their distribution and spacing based on an emittor surface.
 
-This modifier works in a similar way to [Curves to Continuous Subcurves](curve_to_cont_subcurves.md), but the end result prioritizes maintaining overall volume rather than the continuity of individual curves
+This modifier works in a similar way to [**Curves to Continuous Subcurves**](curve_to_cont_subcurves.md), but the end result prioritizes maintaining overall volume rather than the continuity of individual curves
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S-LmTkITiFU?si=NLCgdR45-1awzI0n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
@@ -28,9 +30,12 @@ This modifier works in a similar way to [Curves to Continuous Subcurves](curve_t
 * **Emittor Scale X/Y/Z:** Scale value applied to the **Emittor Mesh** object before subcurves are generated from it
 * **Emittor Rotation X/Y/Z:** Euler rotation applied to the **Emittor Mesh** object before subcurves are generated from it
 * **Smoothing Strength:** Position smoothing applied to the subcurves, which may help with discontinuity
+!!!tip "Alternatives"
+    The smoothing applied by this parameter is very primitive. Using [**Smooth Curves**](../curve_manipulation/smoothen_curves.md) lets you have more control over which parts of which subcurves are smoothed out, and depending on the use case using [**Curves to Continuous Subcurves**](curve_to_cont_subcurves.md) can eliminate the need for smoothing entirely
+
 
 ---
 
 ## Tips & Use Cases
 
-* Creating a **Linked Duplicate** (default: alt+D in Object mode) of your curve object, replacing this modifier with a [Curve to Mesh](../mesh_generation/curve_to_mesh.md), and setting the **Profile Curve** parameter to be the same as the **Emittor Mesh** may help visualize how the curve distribution works. 
+* Creating a **Linked Duplicate** (default: alt+D in Object mode) of your curve object, replacing this modifier with a [**Curve to Mesh**](../mesh_generation/curve_to_mesh.md), and setting the **Profile Curve** parameter to be the same as the **Emittor Mesh** may help visualize how the curve distribution works. 

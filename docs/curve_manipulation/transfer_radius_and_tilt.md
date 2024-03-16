@@ -1,4 +1,4 @@
-# Transfer Radius and Tilt
+# ![icon](../img/icons/transfer_radius_and_tilt.png) Transfer Radius and Tilt
 
 [TOC]
 
@@ -6,6 +6,8 @@
 
 ## Overview
 This modifier takes the radius parameter of curves from one curve object, and overwrites the radius parameter of curves in the object with them. If enabled, it can also add the targets' tilts to the curves.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cxTc6c1aChQ?si=na5rN5jZTlEFgKhn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
