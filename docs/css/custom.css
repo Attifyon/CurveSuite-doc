@@ -7,14 +7,6 @@
     /* overflow-y: scroll; */
 }
 
-.vDivider {
-    width: 80%;
-    height: 1px;
-    margin: 10px auto;
-    background: #434343;
-    /*border-bottom: 1px solid black; */
-}
-
 /*
 .rst-versions { 
     display: none !important;
